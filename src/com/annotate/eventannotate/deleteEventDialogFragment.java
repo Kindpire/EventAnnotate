@@ -1,4 +1,4 @@
-package com.example.eventannotate;
+package com.annotate.eventannotate;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
+
+import com.annotate.eventannotate.R;
 
 import android.annotation.TargetApi;
 import android.app.AlertDialog;
@@ -25,7 +27,7 @@ import android.widget.Toast;
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class deleteEventDialogFragment extends DialogFragment{
 	
-	private static final String LOG_DIRECTORY_PATH = "/EventAnnotation";
+	private static final String LOG_DIRECTORY_PATH = "/EventAnnotate";
 	private static final String LOG_FILE_NAME = "usage.log";
 	File dir;
 	File file;

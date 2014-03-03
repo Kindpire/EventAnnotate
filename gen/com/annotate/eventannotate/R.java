@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.eventannotate;
+package com.annotate.eventannotate;
 
 public final class R {
     public static final class attr {

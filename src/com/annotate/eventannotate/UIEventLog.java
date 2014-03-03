@@ -1,4 +1,4 @@
-package com.example.eventannotate;
+package com.annotate.eventannotate;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class UIEventLog {
 
-	private static final String LOG_DIRECTORY_PATH = "/EventAnnotation";
+	private static final String LOG_DIRECTORY_PATH = "/EventAnnotate";
 	private static final String LOG_FILE_NAME = "usage.log";
 	private static boolean LOG_DEBUG = false;
 	private static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS: ");
